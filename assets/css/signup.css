@@ -1,0 +1,110 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; 
+}
+
+
+.logo-container { 
+    margin-top: -100px;
+    text-align: center; 
+     }
+
+.logo-container img {
+
+    max-width: 400px; 
+     
+}
+
+
+.signup-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+.signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333; 
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333; 
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+    border-color: #4CAF50; 
+    outline: none; 
+}
+
+
+.error {
+    color: red;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.signup-container button:hover {
+    background-color: #45a049; 
+}
+
+
+.signup-container .form-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-container .form-footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.signup-container .form-footer a:hover {
+    text-decoration: underline;
+}
