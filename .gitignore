@@ -1,0 +1,47 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore uploaded files (keep structure, ignore content)
+assets/campaigns/*.png
+assets/campaigns/*.jpg
+assets/campaigns/*.jpeg
+assets/campaigns/*.gif
+!assets/campaigns/.gitkeep
+
+# Ignore sensitive configuration
+config.local.php
+
+# Ignore node modules if using any build tools
+node_modules/
+
+# Ignore composer vendor if using PHP dependencies
+vendor/
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore database dumps (except schema)
+*.sql.gz
+database_backup_*.sql
+
+# Keep the main schema file
+!assets/db/ecorise.sql
