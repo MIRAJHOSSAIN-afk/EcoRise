@@ -94,3 +94,4 @@ $result = mysqli_query($conn, $query);
     </div>
 </body>
 </html>
+// update user
