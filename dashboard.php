@@ -145,3 +145,5 @@ $stmt_user->close();
 $stmt_support->close();
 $conn->close();
 ?>
+
+// ok dashboard.php is complete
