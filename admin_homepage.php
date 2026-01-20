@@ -33,7 +33,7 @@ $total_donations = $total_donations ? $total_donations : 0;
 <div class="admin-container">
 
     <header class="admin-header">
-        <h1>Welcome, <?php echo htmlspecialchars($admin_name); ?></h1>
+      <h1>Welcome</h1>
         <a href="logout.php" class="logout-btn"><b>Log Out</b></a>
     </header>
 
