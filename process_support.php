@@ -68,3 +68,4 @@ if (isset($_POST['campaign_id'], $_POST['amount']) && isset($_SESSION['user_id']
 
 $conn->close(); 
 ?>
+// process support.php  Done
