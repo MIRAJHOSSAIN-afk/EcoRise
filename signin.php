@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         }
     } else {
-        $error = "No account found with that email address.";
+        $error = "No account found with this email address.";
     }
     $stmt->close();
     $conn->close();
