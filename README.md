@@ -1,9 +1,34 @@
 # EcoRise - Environmental Crowdfunding Platform
 
-## Project Overview
-EcoRise is a web-based crowdfunding platform dedicated to supporting environmental initiatives and promoting a sustainable future. Our mission is to empower individuals, communities, and organizations to create and fund impactful eco-projects that make a difference in the world.
+Project Overview
 
-## Features
+EcoRise is a crowdfunding platform dedicated to environmental revival through greenery and reforestation initiatives. The system is designed to facilitate donations and campaign management through a structured, multi-user environment
+Key Features by User Type
+
+### For Users
+1. **Sign Up**: Create a new account
+2. **Sign In**: Log in with credentials
+3. **Browse Campaigns**: View active environmental campaigns
+4. **Support Campaigns**: Make donations to campaigns
+5. **Dashboard**: Manage your profile and view donation history
+
+### For Admins
+1. Sign in with admin credentials
+2. Access admin panel
+3. Manage campaigns (add, edit, delete)
+4. View users and manage platform
+Admin: Responsible for high-level oversight, including adding, editing, or removing campaigns. Admins also manage user and staff accounts and monitor platform performance through donation and campaign statistics graphs.
+
+
+User: Can browse and search for specific campaigns, make donations using multiple payment options, and receive donation receipts. They can also view their donation history and leave reviews on campaigns they have supported.
+
+
+Staff: Acts as an intermediary role focused on operational tasks such as viewing campaign and user details and sending out official notices to the community.
+
+Common Functionalities
+All registered users have access to essential account management tools, including secure authentication (login/logout/registration), profile management (view/edit/delete), and a personalized dashboard to track their activities.
+
+## Key Features
 - User authentication and authorization
 - Campaign management system
 - Donation/support system
@@ -20,7 +45,7 @@ EcoRise is a web-based crowdfunding platform dedicated to supporting environment
 - **Version Control**: Git
 
 ## Project Structure
-```
+
 EcoRise-main/
 ├── app/                    # MVC Architecture
 │   ├── core/              # Core framework files
@@ -33,7 +58,7 @@ EcoRise-main/
 │   └── logo/             # Brand assets
 ├── config.php            # Database configuration
 └── [application files]   # Main application files
-```
+
 
 ## Installation
 
@@ -44,10 +69,10 @@ EcoRise-main/
 
 ### Setup Steps
 1. Clone the repository
-```bash
+bash
 git clone <repository-url>
 cd EcoRise-main
-```
+
 
 2. Start XAMPP
    - Start Apache server
@@ -63,83 +88,17 @@ cd EcoRise-main
 5. Access the Application
    - Open browser: http://localhost/EcoRise-main/
 
-## Usage
 
-### For Users
-1. **Sign Up**: Create a new account
-2. **Sign In**: Log in with credentials
-3. **Browse Campaigns**: View active environmental campaigns
-4. **Support Campaigns**: Make donations to campaigns
-5. **Dashboard**: Manage your profile and view donation history
-
-### For Admins
-1. Sign in with admin credentials
-2. Access admin panel
-3. Manage campaigns (add, edit, delete)
-4. View users and manage platform
-
-## Development Workflow
-
-### Branch Strategy (Gitflow)
-- `main`: Production-ready code
-- `stage`: Pre-production staging
-- `dev`: Integration branch for features
-- `feature/*`: Individual feature development
-- `hotfix/*`: Critical bug fixes
-
-### Commit Message Convention
-```
-<type>: <subject>
-
-<body>
-
-<footer>
-```
-
-**Types**: feat, fix, docs, style, refactor, test, chore
-
-**Example**:
-```
-feat: implement user login page (T-14)
-
-- Created login form component
-- Added input validation
-- Implemented error handling
-```
-
-## Team Members
-- [Member 1 Name] - Role
-- [Member 2 Name] - Role
-- [Member 3 Name] - Role
-- [Member 4 Name] - Role
-
-## Project Management
-- **Task Board**: [Trello Board Link]
-- **Repository**: [GitHub/GitLab Link]
-
-## Security Features
-- Password hashing (bcrypt)
-- Prepared statements (SQL injection prevention)
-- XSS protection with htmlspecialchars
-- Session management
-- Input validation (client-side and server-side)
-
-## Contributing
-1. Claim a task from Trello board
-2. Create feature branch from `dev`
-3. Implement changes
-4. Push and create Pull Request
-5. Request code review
-6. Merge after approval
-
-## License
-[Specify License]
+## Team Members:
+- Miraj  Hossain 
+- Reza 
+- Ahnaf  Ayub
 
 ## Contact
-- Email: support@ecorise.com
-- Phone: 01813609364
+- Email: mirajh324@gmail.com
+- Phone: 0181......
 
 ## Acknowledgments
-- Course Instructor: [Name]
-- Institution: [University/College Name]
-- Course: [Course Code and Name]
+- Course Instructor:MIRZA ASIF MAHMUD
+- Institution: American International Univeresity Bangladesh
+- Course: WEB TECHNOLOGIES [P]
