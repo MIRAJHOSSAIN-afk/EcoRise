@@ -11,3 +11,4 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
+//image updated.php
